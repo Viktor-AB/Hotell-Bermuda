@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=" style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Hotell Bermuda</title>
+</head>
+
+<body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <div class="main">
+    <header class="header">
+      <h1 class="titel"> Hotell Bermuda</h1>
+    </header>
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="boka.html" class="active">Boka</a>
+      <a href="hitta.html">Hitta</a>
+      <a href="omoss.html">Om oss</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="section allt">
+      <form action="action_page.php">
+
+        <label for="fname">Förnamn</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">EfterNamn</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Antal personer</label>
+        <select id="country" name="country">
+          <option value="2">2 vuxna</option>
+          <option value="3">3 vuxna</option>
+          <option value="familj"> Familj</option>
+        </select>
+
+        <label for="subject">Specifikationer</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Boka">
+
+      </form>
+
+
+    </div>
+
+
+
+    <aside class="aside allt">
+      <h1 class="restaurang"> Restaurang </h1>
+      <ul>
+        <li class="text">Måndag: kyckling ris</li>
+        <li class="text">Tisdag: Kebabrulle</li>
+        <li class="text">Onsdag: éntricot </li>
+        <li class="text">Torsdag: korv stroganoff</li>
+        <li class="text">Fredag: vegetarisk pannbiff</li>
+        <li class="text">Lördag: pannkakor</li>
+        <li class="text">Söndag: spaghetti carbonara</li>
+        <li class="text">All inclusive: Buffé</li>
+      </ul>
+
+    </aside>
+
+    <footer class="footer allt">
+      <p class="vanster"> Mail: Utbexemple@skola.malmo.se<br>Tel: exempenummer <br>
+        Följ på instagram: @Hotell_Bermuda<br>Följ på facebook: @Hotell_Bermuda<br> Adress: Bermudatriangeln</p>
+      <p></p>
+
+    </footer>
+
+
+  </div>
+
+</body>
+
+</html>
