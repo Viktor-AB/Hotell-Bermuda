@@ -147,7 +147,7 @@ iframe {
 
 h1 {
   color: #000000;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 h2 {
@@ -173,6 +173,7 @@ li {
 
   .header {
     width: 100%;
+    text-align: center;
   }
 
   .section {
