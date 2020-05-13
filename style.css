@@ -156,6 +156,10 @@ h1 {
   color: #000000;
   font-size: 50px;
 }
+h2{
+color: #000000;
+
+}
 
 header {
   text-align: center;
@@ -182,7 +186,7 @@ li{
 }
 .section{
   grid-row: 3 / 4;
-  width: 92%;
+  width: 94%;
   overflow: hidden;
   height: 30rem;
   text-align: center;
