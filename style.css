@@ -151,6 +151,11 @@ iframe{
   display: none;
 }
 
+.onsynlig{
+  display: none;
+
+}
+
 
 h1 {
   color: #000000;
